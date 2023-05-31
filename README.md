@@ -1,18 +1,13 @@
-## storm-control ##
-This is a repository of code developed in the [Zhuang lab](http://zhuang.harvard.edu) for the acquisition of STORM movies.
+# Storm-Control #
 
-[![DOI](https://zenodo.org/badge/15257214.svg)](https://zenodo.org/badge/latestdoi/15257214)
+## Directory Layout ##
 
-[Discussion Group](https://groups.google.com/d/forum/storm-analysis)
+***hal4000*** - This folder contains the hal-4000 microscope control and image acquisition software (hal-4000.py).
 
-Warning! There have been many changes and this software is now only compatible with Python3 / PyQt5! If you want the end of the line of the (deprecated) Python2 / PyQt4 software then use the python2_pyqt4 branch.
+***sc_hardware*** - This folder contains classes for interfacing with various bits of hardware. Folders are (usually) the manufacturers name.
 
-## Installation ##
-You will need Python3 and PyQt5 as well as a number of other libraries. Please see the Install.txt file in the hal4000 folder.
+***sc_library*** - This folder contains the modules that are used in multiple different programs.
 
-## General notes ##
-1. This software is written primarily in Python with a few C helper libraries.
 
-2. The software is provided "as is" in the hope that others might find it useful. While it is fairly stable and has been developed and used since 2009 in the Zhuang lab, we provide no guarantee that any future changes that are made will maintain backwards compatibility with older versions.
-
-3. We can only provide fairly limited support. You will probably have the most success adapting this software for your purposes if you are reasonably familiar with the Python programming language.
+# Attribution #
+The code in this repository is based on the code from [Zhuang lab Storm-Control](https://github.com/ZhuangLab/storm-control)

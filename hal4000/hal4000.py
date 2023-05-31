@@ -27,16 +27,16 @@ import time
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-import storm_control.sc_library.halExceptions as halExceptions
-import storm_control.sc_library.hdebug as hdebug
-import storm_control.sc_library.hgit as hgit
-import storm_control.sc_library.parameters as params
+import sc_library.halExceptions as halExceptions
+import sc_library.hdebug as hdebug
+import sc_library.hgit as hgit
+import sc_library.parameters as params
 
-import storm_control.hal4000.halLib.halDialog as halDialog
-import storm_control.hal4000.halLib.halMessage as halMessage
-import storm_control.hal4000.halLib.halMessageBox as halMessageBox
-import storm_control.hal4000.halLib.halModule as halModule
-import storm_control.hal4000.qtWidgets.qtAppIcon as qtAppIcon
+import hal4000.halLib.halDialog as halDialog
+import hal4000.halLib.halMessage as halMessage
+import hal4000.halLib.halMessageBox as halMessageBox
+import hal4000.halLib.halModule as halModule
+import hal4000.qtWidgets.qtAppIcon as qtAppIcon
 
 
 app = None
